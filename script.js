@@ -49,9 +49,9 @@ btnHold.addEventListener("click", function () {
     if (scores[activePlayer] >= 30) {
       playing = false;
       diceEl.classList.add("hidden");
-      document.getElementById(`score--${activePlayer}`).textContent = "Win!";
+      document.getElementById(`score--${activePlayer}`).textContent = "Gagné!";
       switchPlayer();
-      document.getElementById(`score--${activePlayer}`).textContent = "Lost!";
+      document.getElementById(`score--${activePlayer}`).textContent = "Perdu!";
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.add("player--winner");

@@ -9,7 +9,7 @@ const btnNew = document.querySelector(".btn--new");
 const btnRoll = document.querySelector(".btn--roll");
 const btnHold = document.querySelector(".btn--hold");
 score0El.textContent = 0;
-// javascript will automatically convert this 0 to string
+// --- //
 score1El.textContent = 0;
 diceEl.classList.add("hidden");
 let currentscore = 0;
